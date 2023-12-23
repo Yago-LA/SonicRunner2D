@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Runner 2D Game</title>
+    <link rel="shortcut icon" href="assets/img/ico2.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body class="vh-100 overflow-hidden" style="background-color: black;">
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-md navbar-dark px-0 py-0 fixed-top">
+        <div class="container-fluid px-0 py-0">
+
+            <!--Logo-->
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/img/ico.png" id="logo"></a>
+
+            <!--BotãoMenu-->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!--MenuVertical-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sonic Runner 2D</h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body d-flex overflow-hidden">
+                    <ul class="navbar-nav flex-grow-1 mx-4 my-3 align-items-md-center">
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 active mx-4" aria-current="page" href="#" id="active">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 text-white mx-4" href="#">Tutorial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 text-white mx-4" href="#">Placar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fs-5 text-white mx-4" href="#">Créditos</a>
+                        </li>
+                        <li class="nav-item d-flex ms-md-auto" id="updates">
+                            <a class="nav-link text-white fs-4" href="#">UPDATES</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--Conteúdo-->
+    <div class="container-fluid min-vh-100 max-vh-100 justify-content-center align-items-center d-flex op">
+        <div class="row">
+            <div class="col-auto">
+                <center>
+                    <img src="assets/img/logo2.gif" class="img-fluid" id="logoJogo">
+                    <H1 id="textoDownload" class="mb-5">ULTRAPASSE SEUS LIMITES!</H1>
+                    <a href="#" id="download" class="fs-3">DOWNLOAD</a>
+                </center>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
